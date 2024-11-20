@@ -1,0 +1,71 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+h3{
+  font-size: 40px;
+  margin: 5px;
+}
+h4{
+  font-size: 25px;
+}
+
+.mainDiv{
+  background-color: rgb(56, 133, 184);
+  width: 600px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 45px;
+}
+
+.btns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.addBtn{
+  background-color: rgb(9, 188, 3);
+}
+.minBtn{
+  background-color: rgb(205, 31, 31);
+}
+.addBtn , .minBtn {
+  width: 77px;
+  height: 47px;
+}
+
+button{
+  margin: 10px;
+}
