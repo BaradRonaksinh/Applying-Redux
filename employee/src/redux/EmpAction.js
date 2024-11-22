@@ -27,7 +27,7 @@ export const dispFun = () => {
 export const updateFun = (id,data) => {
     return{
         type:improve,
-        payload:[id,data]
+        payload:{id,data}
     }
 }
 

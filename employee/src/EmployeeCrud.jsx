@@ -22,7 +22,7 @@ const EmployeeCrud = () => {
     }
     const saveData = (e) => {
         e.preventDefault()
-        if(data.id != ''){
+        if(data.id != ""){
             // console.log(updateFun);
             // console.log(dispatch);
             dispatch(updateFun(data.id,data))
